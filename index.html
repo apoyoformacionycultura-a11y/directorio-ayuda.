@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Directorio de Ayuda · Serdan</title>
+<style>
+:root{--b:#0B3C8C;--b2:#1457C7;--o:#F58220;--bg:#F4F7FC;--c:#fff;--t:#14233F;--m:#5B6B88;--l:#DCE4F2;--tc:#B85300;--lk:#0B3C8C;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0C1424;--c:#152238;--t:#E8EEFA;--m:#9DB0D0;--l:#26385A;--tc:#FFB066;--lk:#8DB4FF}}
+:root[data-theme="dark"]{--bg:#0C1424;--c:#152238;--t:#E8EEFA;--m:#9DB0D0;--l:#26385A;--tc:#FFB066;--lk:#8DB4FF}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--t);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{background:linear-gradient(135deg,var(--b),var(--b2));color:#fff;padding:26px 20px 60px;border-bottom:5px solid var(--o)}
+.w,main,.s{max-width:860px;margin:0 auto}
+.brand{display:inline-block;background:#fff;border-radius:14px;padding:8px 14px;box-shadow:0 4px 14px rgba(0,0,0,.18);line-height:0}.brand img{height:44px;width:auto;max-width:100%}
+h1{margin:14px 0 6px;font-size:clamp(24px,5vw,34px);line-height:1.15}
+header p{margin:0;opacity:.92}
+.s{margin-top:-30px;padding:0 16px}
+#s{width:100%;padding:15px 18px;border:0;border-radius:14px;font:inherit;box-shadow:0 6px 20px rgba(11,60,140,.22);background:var(--c);color:var(--t)}
+#s:focus{outline:3px solid var(--o)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:16px 0 6px}
+.chips button{flex:none;border:1px solid var(--l);background:var(--c);color:var(--t);border-radius:999px;padding:8px 14px;font:inherit;font-size:14px;cursor:pointer}
+.chips .on{background:var(--o);border-color:var(--o);color:#fff;font-weight:600}
+main{padding:6px 16px 40px}
+#cnt{color:var(--m);font-size:14px;margin:10px 2px 0}
+.card{background:var(--c);border:1px solid var(--l);border-radius:14px;margin:10px 0;overflow:hidden;transition:box-shadow .2s}
+.card:hover,.card.open{box-shadow:0 4px 16px rgba(11,60,140,.12)}
+.card.open{border-color:var(--o)}
+.q{all:unset;box-sizing:border-box;display:flex;align-items:center;gap:12px;width:100%;padding:14px 16px;cursor:pointer}
+.q:focus-visible{outline:3px solid var(--o);outline-offset:-3px}
+.qt{flex:1;font-weight:600}
+.tag{flex:none;font-size:12px;font-weight:700;color:var(--tc);background:rgba(245,130,32,.15);border-radius:8px;padding:3px 8px;max-width:38%;text-align:center}
+.q i{flex:none;width:9px;height:9px;border:solid var(--b2);border-width:0 2.5px 2.5px 0;transform:rotate(45deg);transition:transform .2s}
+.card.open .q i{transform:rotate(-135deg);border-color:var(--o)}
+.a{padding:2px 16px 16px;border-top:1px dashed var(--l)}
+.a h4{margin:14px 0 4px;font-size:13px;letter-spacing:.5px;text-transform:uppercase;color:var(--o)}
+.p{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:10px 12px;border:1px solid var(--l);border-radius:12px;margin:8px 0}
+.av{flex:none;width:38px;height:38px;border-radius:50%;background:var(--b);color:#fff;display:grid;place-items:center;font-weight:700}
+.pi{flex:1;min-width:160px;display:flex;flex-direction:column}
+.pi small{color:var(--m)}
+.ph{display:flex;gap:8px;align-items:center}
+.ph a{color:var(--lk);font-weight:600;text-decoration:none}
+.ph .wa,.lk{background:var(--o);color:#fff;border-radius:8px;padding:6px 12px;font-size:14px;text-decoration:none;font-weight:600}
+.lk{display:inline-block;margin:6px 6px 0 0;padding:9px 14px}
+.n{margin:8px 0;padding:10px 12px;border-left:4px solid var(--o);background:rgba(245,130,32,.1);border-radius:0 10px 10px 0}
+.empty{text-align:center;color:var(--m);padding:30px 0}
+footer{text-align:center;color:var(--m);font-size:13px;padding:0 16px 24px}
+</style>
+</head>
+<body>
+<header><div class="w">
+<div class="brand"><img src="data:image/png;base64,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" alt="Serdan - Servicios con talento" width="190" height="50"></div>
+<h1>Directorio de Ayuda</h1>
+<p>Encuentra rápido a quién acudir según tu necesidad. Selecciona una pregunta y te mostramos el contacto o recurso indicado.</p>
+</div></header>
+<div class="s">
+<input id="s" type="search" placeholder="Busca tu pregunta… (ej. vacaciones, incapacidad, EPP)" aria-label="Buscar pregunta">
+<div class="chips" id="chips"></div>
+</div>
+<main><div id="cnt"></div><div id="list"></div></main>
+<footer>Serdan · Directorio de Ayuda</footer>
+<script>
+const P={
+dfc:["Líder de Formación & Cultura","Daiana Silva","3160169747"],
+ofo:["Formador Onboarding","Octavio Hernandez","3166910803"],
+efr:["Formador Comercial","Edgar Franco","3174295870"],
+jq:["Subdirector de cuenta","Jorge Quimbay","3176421035"],
+lv:["Directora de cuenta","Lorena Vanegas","3203866424"],
+vm:["Analista de herramientas (provisional)","Victor Moya","3153058655"],
+jr:["Líder de Información Estratégica","Juan Rubiano","3153058655"],
+lg:["Técnico de bajas","Lina Galeano","3154868803"],
+jg:["Aprendiz de Indicadores","Jhon Giraldo","3152366615"],
+db:["Analista de información","Dayana Barrera","3182097206"],
+ec:["Líder Administrativo","Edwin Castañeda","315217057"],
+do:["Especialista de compensación","Doris Ovalle","3155789817"],
+gj:["Aprendiz Administrativa","Geraldine Jara","3181683575"],
+sb:["Coordinadora de selección","Stephanie Barrios","3155330300"],
+lr:["Analista de Selección","Luisa Robayo","3160260092"],
+ad:["Analista de dotación","","3164520181"],
+sc:["Coordinadora HSE","Sindy Campos","3183476668"],
+lb:["Líder de bienestar y talento humano","Leyde Gonzalez","3155330300"],
+rs:["Analista Regional Sur","Janeth Cantor","3164519542"],
+ra:["Analista Regional Andes","Maria Fernanda Lopez","3164520178"],
+rc:["Analista Regional Centro","Catherine Calderon","3183761198"],
+rn:["Analista Regional Norte","","3156211044"],
+hc:["Supervisor HSE · Regional Centro","Andres Rueda","3176591887"],
+hs:["Supervisor HSE · Regional Sur","Dorisabel Correa","3158796973"],
+ha:["Supervisor HSE · Regional Andes","Vacante","3164480248"],
+hn:["Supervisor HSE · Regional Norte","Cristian Yepes","3165258404"],
+vc:["Líder Vial · Regional Centro","Edwin Gaitan","3152856657"],
+vs:["Líder Vial · Regional Sur","Miguel Florez","3174394111"],
+va:["Líder Vial · Regional Andes","Vacante","3164480248"],
+vn:["Líder Vial · Regional Norte","Luis Lara","3173519604"]};
+const G={reg:["Según tu regional",["rs","ra","rc","rn"]],hse:["Según tu regional",["hc","hs","ha","hn"]],vial:["Según tu regional",["vc","vs","va","vn"]]};
+const L={
+pbi:["Tablero en Power BI","https://app.powerbi.com/view?r=eyJrIjoiMTgyMzIyMGMtZDA1ZC00MDg5LWIzNjQtNDExOTJlMGE0MDJlIiwidCI6IjZkY2U5YWJhLWNhMDktNDBiYy1hMzE1LWI0NzhhNjQ2MTgxZSIsImMiOjR9"],
+rq:["Formulario de requerimientos","https://docs.google.com/forms/d/e/1FAIpQLScYJySCAKG5r3F1FvNOPiB2UD0svGpfD_2AJqO2A-dgraMB4w/viewform"],
+cons:["Consolidado de candidatos","https://docs.google.com/spreadsheets/d/1_bW0yk_HZDzt9QiPCl0qx6XU6T6bdPNcwUR9CW2pfPw/edit?gid=58859343#gid=58859343"]};
+const can='<h4>Canales directos Serdan</h4><p class="n">Correos: reclamos@serdan.com.co · atencionalempleado@serdan.com.co<br>Página web: <a href="https://www.serdan.com.co/contactenos.html" target="_blank" rel="noopener">serdan.com.co/contactenos</a><br>Línea: 3581000</p>';
+const altum="Consúltalo directamente en la plataforma ALTUM.";
+const C=[["Formación & Cultura","🎓"],["Información Estratégica","📊"],["Estructura y procesos","🧭"],["Requerimientos","📝"],["Procesos Jurídicos","⚖️"],["Nómina e incapacidades","💰"],["Selección","🔎"],["HSE y Dotación","🦺"],["Talento Humano","💙"]];
+const S=(c,r,qs)=>qs.map(q=>[c,q,r]);
+const Q=[
+...S(0,["dfc"],["¿En qué día de Onboarding se encuentra mi colaborador?"]),
+...S(0,["ofo","dfc"],["¿Cómo puedo conocer el desempeño de mi colaborador en su día 1?"]),
+...S(0,["efr","dfc"],["¿Cómo puedo conocer el desempeño de mi colaborador en su día 2?"]),
+...S(0,["dfc","jq","lv"],["¿Dónde puedo solicitar refuerzos de formación para colaboradores que presentan brechas de conocimiento?"]),
+...S(0,["dfc","jq"],["¿Qué debo hacer si mi equipo tiene cursos pendientes en BEES Academy?","¿A quién puedo acudir si un colaborador presenta dificultades para ingresar a BEES Academy?"]),
+...S(1,["vm","jr"],["¿A quién reporto una novedad con un equipo o herramienta asignada a un asesor?","¿Qué debo hacer si tengo diferencias en el inventario de herramientas de mi equipo?"]),
+...S(1,["lg","jr","jq"],["¿Cómo puedo solicitar la revisión de una visita que aparece como abierta o injustificada?","¿Qué soportes necesito para solicitar la exoneración de una visita?"]),
+...S(1,["vm","jr","jq"],["¿Cómo puedo solicitar una automatización o mejora tecnológica para un proceso operativo?"]),
+...S(1,["pbi","jg","jr"],["¿Dónde puedo consultar los resultados de Visita de Calidad de mi equipo?"]),
+...S(1,["pbi","jr"],["¿Cómo puedo consultar las visitas realizadas por un asesor y su ubicación?","¿Dónde puedo consultar la cobertura, los clientes y el seguimiento comercial?"]),
+...S(1,["pbi","jr","jq"],["¿Cómo puedo consultar la rotación de mi gerencia o sector?"]),
+...S(1,["jr","jq"],["¿Dónde puedo revisar las cuotas COPEX o el Modelo Predictivo de rotación?"]),
+...S(2,["db","reg","do"],["¿Cómo debo gestionar la programación de vacaciones de mi equipo?","¿Qué debo hacer si necesito cubrir una vacante por vacaciones o incapacidad?"]),
+...S(2,["db","ec","jq"],["¿Cómo debo reportar las horas de ausentismo de un colaborador?","¿Qué debo hacer si encuentro un error en el consolidado de ausentismo?","¿A quién debo reportar una novedad que pueda afectar el pago de horas extras?","¿Cómo puedo validar si la remuneración variable de mi equipo está correctamente liquidada?","¿Qué es el garantizado y en qué situaciones aplica?"]),
+...S(3,["rq","gj","ec"],["¿Cómo solicito el reemplazo de un asesor que presentó renuncia?","¿Cómo solicito personal para cubrir una incapacidad o licencia?"]),
+...S(3,["gj","ec","jq"],["¿Qué debo hacer si no sé cómo diligenciar el formulario de requerimientos?"]),
+...S(3,["rq","ec","jq"],["¿Cómo puedo conocer el estado de una solicitud de personal?"]),
+...S(3,["ec","jq"],["¿Por qué mi requerimiento no ha avanzado a selección?"]),
+...S(4,["reg","ec","jq"],["¿Qué debo hacer si un colaborador incumple una instrucción o una función de su cargo?","¿Cuándo debo realizar un recordatorio de funciones y cuándo solicitar un proceso disciplinario?","¿Cómo puedo solicitar la apertura de un proceso disciplinario?","¿Cómo debo redactar el relato de los hechos para solicitar un proceso disciplinario?","¿Qué evidencias debo adjuntar para respaldar una solicitud disciplinaria?","¿Cómo puedo consultar el estado de un proceso disciplinario que ya fue radicado?","¿Qué debo hacer si no he recibido respuesta sobre un proceso disciplinario?"]),
+[4,"¿Cuánto tiempo puede tardar un proceso disciplinario?",["reg","ec","jq","Citación a descargos: dentro de los 4 días hábiles posteriores al informe. Análisis de descargos y sanción: dentro de los 3 días hábiles siguientes. La duración total puede superar los 11 días hábiles, por eso es clave el seguimiento oportuno."]],
+...S(4,["ec","jq"],["¿Cómo puedo generar un recordatorio de funciones desde ALTUM?"]),
+[4,"¿Dónde puedo consultar las funciones correspondientes a un cargo?",[altum,"ec"]],
+...S(4,["ad","sc"],["¿Cómo reporto una novedad relacionada con una póliza?"]),
+...S(5,["do","jq"],["¿Cuándo se realizan los pagos de nómina?","¿Cómo puedo conocer la composición salarial de un colaborador?"]),
+...S(5,["reg","do","jq"],["¿Qué debo hacer cuando un colaborador presenta una incapacidad médica?","¿Cómo debo reportar una incapacidad por accidente laboral?","¿Qué documentos necesito para reportar una licencia de maternidad o paternidad?","¿Cómo debo gestionar una renuncia voluntaria?","¿Qué debo hacer si un colaborador abandona su cargo?"]),
+[5,"¿Cómo solicito las vacaciones de un colaborador?",["Reporta la solicitud 15 días antes, con una carta que especifique los días a disfrutar y, si aplica, los días a remunerar. Verifica que el colaborador tenga los días ya causados.","reg","do","jq"]],
+[5,"¿Con cuánta anticipación debo enviar una solicitud de vacaciones?",["Con 15 días de anticipación, con carta que especifique los días a disfrutar y los días remunerados (si aplica).","do","jq"]],
+...S(5,["reg","do","jq"],["¿Cómo se tramita una licencia de luto o calamidad doméstica?"]),
+[5,"¿Dónde puedo descargar los desprendibles de pago de mi equipo o los documentos laborales?",[altum,"do","jq"]],
+[5,"¿Cómo puedo descargar mi certificado laboral o certificado de ingresos y retenciones?",[altum,"can","do"]],
+[5,"¿Cómo solicito una carta para retirar mis cesantías?",["Personal activo: solicítala en serdan.com.co","Personal no activo: usa los canales de atención directos de Serdan.","can","do"]],
+[6,"¿Cómo puedo conocer el estado de un candidato que está en proceso de selección?",["cons","sb"]],
+[6,"¿Qué debo hacer si necesito un perfil específico para una vacante?",["rq","sb"]],
+...S(6,["sb"],["¿Cómo se valida que un candidato cumple con el perfil comercial?","¿Quién realiza las pruebas psicotécnicas y validaciones de antecedentes?","¿Cómo se gestionan las pruebas de conducción para los cargos que requieren motocicleta?"]),
+...S(6,["lr","sb"],["¿Qué sucede si un candidato no supera las pruebas de conducción?"]),
+[6,"Candidatos en vía 2: ¿cuál es el plazo para responder?",["Los candidatos en vía 2 tienen un plazo de 2 días para responder si quedan o se rechazan.","rq","sb"]],
+[7,"¿Qué elementos de protección personal debe utilizar un asesor comercial en calle?",["Desplazamiento en moto: casco certificado, guantes de moto, coderas, rodilleras y botas de seguridad. Atención en cliente: lentes de seguridad, guantes anticorte y botas de seguridad.","ad","sc"]],
+[7,"¿Qué debo hacer si un colaborador no cuenta con sus elementos de protección personal completos?",["ad","hse","sc"]],
+...S(7,["hse","sc"],["¿Cómo reporto un accidente de trabajo de un colaborador?","¿A quién reporto una condición insegura identificada durante una visita en campo?","¿Cómo puedo solicitar orientación sobre los comités COPASST o COVILA?","¿Qué debo hacer si identifico una situación que representa un riesgo para la integridad de mi equipo?"]),
+...S(7,["vial","sc"],["¿Qué debo hacer si un colaborador sufre un accidente de tránsito durante su jornada?","¿Dónde puedo conocer las políticas de seguridad vial y SG-SST?","¿Cómo programo exámenes periódicos, de ingreso o post incapacidad (incluye gestantes y lactantes)?"]),
+[7,"¿Qué debo hacer si un colaborador no utiliza correctamente su dotación?",["Contacta al área HSE para orientación sobre el cumplimiento de las políticas de EPP.","sc"]],
+...S(8,["lb","jq","lv"],["¿Dónde puedo consultar la tasa de rotación de mi gerencia?","¿Cómo puedo conocer los beneficios y convenios disponibles para mis colaboradores?","¿Qué actividades puedo realizar para fortalecer la motivación y el sentido de pertenencia de mi equipo?","¿Quién realiza las llamadas a los colaboradores que presentan su renuncia?","¿Cómo puedo conocer los resultados de la evaluación de desempeño de mi equipo?","¿Dónde puedo consultar las condiciones y reglas del programa Invencibles?","¿Cómo puedo consultar las fechas de cumpleaños de mis colaboradores?","¿Qué debo hacer si un colaborador está próximo a finalizar su periodo de prueba?","¿Dónde puedo consultar información sobre campañas, actividades y comunicados institucionales?","¿Qué debo hacer si un colaborador presenta una situación de crisis emocional?"])
+];
+const $=s=>document.querySelector(s);
+const norm=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+const fmt=n=>n.length==10?n.replace(/(\d{3})(\d{3})(\d{4})/,"$1 $2 $3"):n;
+const person=([r,n,t])=>`<div class="p"><b class="av">${(n||r)[0]}</b><div class="pi"><small>${r}</small><strong>${n||"Nombre por confirmar"}</strong></div><span class="ph"><a href="tel:${t}">${fmt(t)}</a>${t.length==10?`<a class="wa" href="https://wa.me/57${t}" target="_blank" rel="noopener">WhatsApp</a>`:""}</span></div>`;
+const ref=r=>P[r]?person(P[r]):G[r]?`<h4>${G[r][0]}</h4>`+G[r][1].map(i=>person(P[i])).join(""):L[r]?`<a class="lk" href="${L[r][1]}" target="_blank" rel="noopener">${L[r][0]} ↗</a>`:r=="can"?can:`<p class="n">${r}</p>`;
+const SW=new Set("como que debo puedo para por con una uno los las del mis mas hay quien donde cual cuando cuanto esta este hacer tengo necesito quiero".split(" "));
+const SY={permiso:"licencia",descanso:"vacaciones",sueldo:"salario",salarial:"salario",pago:"nomina",pagos:"nomina",quincena:"nomina",despido:"renuncia",retiro:"renuncia",epp:"dotacion",uniforme:"dotacion",casco:"dotacion",sancion:"disciplinario",llamado:"disciplinario",contratar:"seleccion",reclutamiento:"seleccion",candidato:"seleccion",enfermedad:"incapacidad",enfermo:"incapacidad",medica:"incapacidad",accidentes:"accidente"};
+const stem=s=>norm(s).split(/[^a-z0-9]+/).filter(w=>w.length>2&&!SW.has(w)).map(w=>(SY[w]||w).slice(0,5));
+function similar(pool,t){const a=new Set(stem(t));return pool.map(x=>{const b=new Set(stem(x[1]+" "+C[x[0]][0]));let s=0;a.forEach(w=>b.has(w)&&s++);return[s/a.size,x]}).filter(r=>r[0]>0).sort((m,n)=>n[0]-m[0]).slice(0,3).map(r=>r[1])}
+let cat=-1,q="";
+function chips(){$("#chips").innerHTML=[["Todas","✨"],...C].map((c,i)=>`<button class="${i-1==cat?"on":""}" data-c="${i-1}">${c[1]} ${c[0]}</button>`).join("")}
+function draw(){
+const k=norm(q),pool=Q.filter(x=>cat<0||x[0]==cat);let it=pool.filter(x=>norm(x[1]).includes(k)),sim=0;
+if(!it.length&&k.trim()){it=similar(pool,q);sim=1}
+$("#cnt").textContent=sim?"No encontramos esa pregunta exacta. Estas son las más parecidas:":it.length+(it.length==1?" pregunta":" preguntas");
+$("#list").innerHTML=it.length?it.map(x=>`<article class="card"><button class="q" aria-expanded="false"><span class="qt">${x[1]}</span><span class="tag">${C[x[0]][1]} ${C[x[0]][0]}</span><i></i></button><div class="a" hidden><h4>Dirígete a</h4>${x[2].map(ref).join("")}</div></article>`).join(""):'<p class="empty">No encontramos preguntas parecidas. Prueba con otras palabras o escribe al Líder Administrativo.</p>';
+}
+$("#chips").onclick=e=>{const b=e.target.closest("button");if(!b)return;cat=+b.dataset.c;chips();draw()};
+$("#s").oninput=e=>{q=e.target.value;draw()};
+$("#list").onclick=e=>{const b=e.target.closest(".q");if(!b)return;const c=b.parentNode,o=c.classList.toggle("open");b.setAttribute("aria-expanded",o);c.querySelector(".a").hidden=!o};
+chips();draw();
+</script>
+</body>
+</html>
